@@ -1,0 +1,5 @@
+result,instance_or_input,computed_certificate,interpretation
+Proposition 2,"empty to {c1,c2,c3,c5}","empty->{c1}->{c1,c3}->{c1,c2,c3,c5}; cost 5.3",Minimum-friction acquisition path
+Lemma 4 / Proposition 3,"c1 path 6.0,4.5,6.0,9.5,6.0",V=10.0; delta_1=3.75; bound N_1<=3; realized N_1=2; tightness construction included,Asymptotically tight churn bound
+Theorem 3 / Corollary 2,"Range [1.8,9.0], target {c1,c2,c3,c5}",Reachable; single-chain case O(n^3),Bounded range and chain-decomposable structure give computable reachability
+Theorem 4 / Corollary 3,substitutability example and complementarity shift,No-passing failure under substitute; thresholds shift equally under complementarity,Interactions determine no-passing and threshold placement

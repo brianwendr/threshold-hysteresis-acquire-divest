@@ -1,0 +1,6 @@
+N_switches,delta,epsilon,constructed_variation_bound,comment
+1,3.75,0.01,0.01,asymptotic tightness construction for Lemma 4
+2,3.75,0.01,3.76,asymptotic tightness construction for Lemma 4
+3,3.75,0.01,7.51,asymptotic tightness construction for Lemma 4
+4,3.75,0.01,11.26,asymptotic tightness construction for Lemma 4
+5,3.75,0.01,15.01,asymptotic tightness construction for Lemma 4

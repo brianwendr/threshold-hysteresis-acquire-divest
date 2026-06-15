@@ -1,0 +1,7 @@
+u,k,phi_u_minus_phi_k,max_term,condition_iii,a_u_plus_b_k,condition_iv,T_u_plus_ge_T_k_plus,T_u_minus_ge_T_k_minus
+c1,c2,2.5,0.35,yes,4.1,no,yes,yes
+c1,c3,0.8333,0.0833,yes,3.8333,no,yes,yes
+c2,c4,2,2,yes,3.5,no,yes,yes
+c2,c5,0,0.5,no,4.25,no,no,yes
+c3,c5,1.6667,0.1667,yes,3.9167,no,yes,yes
+c2,c6,0.6,0.6,yes,4.2,no,yes,yes

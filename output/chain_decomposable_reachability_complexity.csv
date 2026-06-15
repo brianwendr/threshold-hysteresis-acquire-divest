@@ -1,0 +1,3 @@
+case,closed_set_bound,reachability_complexity,note
+single_chain,n+1,O(n^3),single directed prerequisite chain
+w_disjoint_chains_no_cross_dependencies,O(n^w),O(n^(w+2)),fixed number of independent prerequisite chains
