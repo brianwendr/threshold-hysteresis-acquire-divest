@@ -1,13 +1,12 @@
-# Online Resource 1: Replication package
+# Supplementary Material S1: Replication package
 
-This package supports the manuscript **Threshold Hysteresis in Dynamic Acquire-Divest Decisions with Transaction Costs**.
-
-It contains the configuration files, Python source, and generated CSV outputs used for the numerical trace certificates. The package is deliberately lightweight and uses only the Python standard library.
+This package supports the manuscript **A Finite-State Threshold Policy for Dynamic Acquire-Divest Decisions with Transaction Costs**
 
 ## Contents
 
 - `config/capabilities.csv`: capability parameters and prerequisites.
 - `config/paths.csv`: budget paths used in the trace examples.
+- `src/replicate_hysteresis.py`: Python script for regenerating the main threshold tables and core certificates. The script uses only the Python standard library.
 - `output/manuscript_table2_capability_parameters.csv`: values in Table 2.
 - `output/manuscript_table3_threshold_verification.csv`: values in Table 3.
 - `output/manuscript_table4_algorithmic_trace_certificates.csv`: values in Table 4.
@@ -20,6 +19,16 @@ It contains the configuration files, Python source, and generated CSV outputs us
 - `output/interaction_counterexample.csv`: substitutability counterexample for Theorem 4.
 - `output/supplementary_*`: additional trace and decomposition outputs.
 
+## How to run
+
+From the package root, run:
+
+```bash
+python src/replicate_hysteresis.py
+```
+
+The script regenerates the core output files in the `output/` folder. Additional supplementary CSV files are included as fixed trace certificates because they report specific path and counterexample values used in the manuscript.
+
 ## Reproducibility statement
 
-The manuscript is theoretical. No external empirical dataset is required. The CSV files here are generated examples used to verify the threshold arithmetic, greedy path, reachability certificate, switching-count bound, tightness construction, complementarity threshold shift, interaction counterexample, and memory traces.
+The package is lightweight by design. It contains no confidential or proprietary data, and all values are generated from the normalized illustrative parameters stated in the manuscript.
