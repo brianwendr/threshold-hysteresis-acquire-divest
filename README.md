@@ -1,6 +1,6 @@
 # Supplementary Material S1: Replication package
 
-This package supports the manuscript **A Finite-State Threshold Policy for Dynamic Acquire-Divest Decisions with Transaction Costs**
+This package supports the Central European Journal of Operations Research submission **A Finite-State Threshold Policy for Dynamic Acquire-Divest Decisions with Transaction Costs**
 
 ## Contents
 
