@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate the CSV certificates for Supplementary Material S1.
+"""Regenerate the CSV certificates for Online Resource 1.
 This script uses only the Python standard library and writes all outputs to ../output.
 """
 from pathlib import Path
@@ -51,7 +51,7 @@ def main():
         {"step":1,"current_set":"{c1}","chosen_trigger":"c3","added_package":"{c3}","cumulative_cost":1.8},
         {"step":2,"current_set":"{c1,c3}","chosen_trigger":"c5","added_package":"{c2,c5}","cumulative_cost":5.3},
     ])
-    print("Regenerated CEJOR Supplementary Material S1 outputs in", OUT)
+    print("Regenerated Online Resource 1 outputs in", OUT)
 
 if __name__ == "__main__":
     main()
